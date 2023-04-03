@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: gray;
   }
-
+  
   h1 {
     color: black;
     margin: 4px;
@@ -43,6 +43,10 @@ body {
     color: greenyellow;
   }
 
+  .pink-theme {
+    background-color: pink;
+    color: magenta;
+  }
   
   /* List-style-specific styles */
   .bullets-list li {
@@ -53,6 +57,6 @@ body {
     list-style: decimal;
   }
 
-  .circle-list li {
+  .roman-list li {
     list-style-type: upper-roman;
   }
