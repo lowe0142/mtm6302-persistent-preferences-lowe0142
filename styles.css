@@ -27,7 +27,7 @@ body {
     background: snow;
     color: gray;
   }
-  
+
   .dark-theme {
     background-color: #333;
     color: #f5f5f5;
@@ -51,4 +51,8 @@ body {
   
   .numbers-list li {
     list-style: decimal;
+  }
+
+  .circle-list li {
+    list-style-type: circle;
   }
