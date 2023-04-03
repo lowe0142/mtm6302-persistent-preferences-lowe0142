@@ -1,0 +1,54 @@
+body {
+    background-color: seashell;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+  }
+
+  h1 {
+    color: black;
+    margin: 4px;
+    padding: 4px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 4;
+    padding: 4;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Theme-specific styles */
+  .default-theme {
+    background: snow;
+    color: gray;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  .light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .green-theme {
+    background-color: green;
+    color: greenyellow;
+  }
+
+  
+  /* List-style-specific styles */
+  .bullets-list li {
+    list-style: disc;
+  }
+  
+  .numbers-list li {
+    list-style: decimal;
+  }
