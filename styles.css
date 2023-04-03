@@ -54,5 +54,5 @@ body {
   }
 
   .circle-list li {
-    list-style-type: circle;
+    list-style-type: upper-roman;
   }
