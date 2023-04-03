@@ -5,44 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persistent Preferences</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+X6QLZ3XEKjsxtP+0UuFQO8N2AjooDt" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <body>
-        <div class="container">
-          <h1>My List</h1>
-          <div class="row">
-            <div class="col-md-6">
-              <ul id="myList" class="list-group" style="list-style-type: none;">
-                <!-- List items will be dynamically added here -->
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">
-                  Preferences
-                </div>
-                <div class="card-body">
-                  <div class="mb-3">
-                    <label for="themeSelect" class="form-label">Theme</label>
-                    <select id="themeSelect" class="form-select">
-                      <option value="light">Light</option>
-                      <option value="dark">Dark</option>
-                    </select>
-                  </div>
-                  <div class="mb-3">
-                    <label for="listStyleSelect" class="form-label">List Style</label>
-                    <select id="listStyleSelect" class="form-select">
-                      <option value="list-group">Default</option>
-                      <option value="list-group">Flush</option>
-                      <option value="list-group">Danger</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <h1>My List</h1>
+        <ul id="my-list"></ul>
+        <div id="preferences-panel">
+          <h2>Preferences</h2>
+          <label for="theme-select">Select Theme:</label>
+          <select id="theme-select">
+            <option value="default">Default</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+          </select>
+          <br>
+          <label for="list-select">List Style:</label>
+          <select id="list-select">
+            <option value="default">Default</option>
+            <option value="bullets">Bullets</option>
+            <option value="numbers">Numbers</option>
+          </select>
         </div>
     <script src="main.js"></script>
 </body>
