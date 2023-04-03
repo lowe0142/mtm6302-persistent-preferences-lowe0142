@@ -9,7 +9,41 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <body>
+        <div class="container">
+          <h1>My List</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <ul id="myList" class="list-group" style="list-style-type: none;">
+                <!-- List items will be dynamically added here -->
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  Preferences
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <label for="themeSelect" class="form-label">Theme</label>
+                    <select id="themeSelect" class="form-select">
+                      <option value="light">Light</option>
+                      <option value="dark">Dark</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="listStyleSelect" class="form-label">List Style</label>
+                    <select id="listStyleSelect" class="form-select">
+                      <option value="list-group">Default</option>
+                      <option value="list-group">Flush</option>
+                      <option value="list-group">Danger</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     <script src="main.js"></script>
 </body>
 </html>
