@@ -27,7 +27,7 @@ border-radius: 5px;
 }
   
   
-  /* Theme-specific styles */
+  /* Theme Styles */
   .default-theme {
     background: lightyellow;
     color: black;
@@ -53,7 +53,7 @@ border-radius: 5px;
     color: magenta;
   }
   
-  /* List Specific Styles */
+  /* List Styles */
   .bullets-list li {
     list-style: disc;
   }
