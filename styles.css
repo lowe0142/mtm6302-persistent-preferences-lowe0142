@@ -48,7 +48,7 @@ body {
     color: magenta;
   }
   
-  /* List-style-specific styles */
+  /* List Specific Styles */
   .bullets-list li {
     list-style: disc;
   }
