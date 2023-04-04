@@ -1,5 +1,28 @@
+body {
+background-color: lightyellow;
+font-family: 'Times New Roman', Times, serif;
+color: darkblue;
+}
 
-    /* Theme-specific styles */
+h1 {
+margin: 4px;
+padding: 4px;
+}
+
+ul {
+list-style: none;
+margin: 4;
+padding: 4;
+}
+
+li {
+padding: 10px;
+margin: 5px;
+border-radius: 5px;
+}
+  
+  
+  /* Theme-specific styles */
   .default-theme {
     background: lightyellow;
     color: black;
