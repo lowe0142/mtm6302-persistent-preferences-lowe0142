@@ -9,32 +9,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <body>
-        <div class="container">
-            <h1>List</h1>
-            <ul id="my-list" class="list-group"></ul>
-            <div id="preferences-panel" class="card-p-3">
+    <div class="container">
+        <h1>List</h1>
+        <ul id="my-list" class="list-group"></ul>
+        <div id="preferences-panel" class="card-p-3">
             <h2 class="card-title">Preferences</h2>
             <form>
-                <label for="theme-select">Select Theme:</label>
-                <select id="theme-select">
-                    <option value="default">Default</option>
-                    <option value="dark">Dark</option>
-                    <option value="light">Light</option>
-                    <option value="green">Green</option>
-                    <option value="pink">Pink</option>
-                </select>
-                <br>
-                <label for="list-select">List Style:</label>
-                <select id="list-select">
-                    <option value="default">Default</option>
-                    <option value="bullets">Bullets</option>
-                    <option value="numbers">Numbers</option>
-                    <option value="roman">Roman</option>
-                </select>
+                <div class="mb-3">
+                    <label for="theme-select" class="form-label">Select Theme:</label>
+                    <select id="theme-select" class="form-select">
+                        <option value="default">Default</option>
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                        <option value="green">Green</option>
+                        <option value="pink">Pink</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="list-select" class="form-label">List Style:</label>
+                    <select id="list-select" class="form-select">
+                        <option value="default">Default</option>
+                        <option value="bullets">Bullets</option>
+                        <option value="numbers">Numbers</option>
+                        <option value="roman">Roman</option>
+                    </select>
                 </div>
             </form>
         </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
