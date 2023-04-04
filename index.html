@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persistent Preferences</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>List</h1>
-        <ul id="my-list" class="list-group"></ul>
-        <div id="preferences-panel" class="card-p-3">
+        <ul id="my-list"></ul>
+        <div id="preferences-panel">
             <h2 class="card-title">Preferences</h2>
             <form>
                 <div class="mb-3">
-                    <label for="theme-select" class="form-label">Select Theme:</label>
-                    <select id="theme-select" class="form-select">
+                    <label for="theme-select">Select Theme:</label>
+                    <select id="theme-select">
                         <option value="default">Default</option>
                         <option value="dark">Dark</option>
                         <option value="light">Light</option>
@@ -26,8 +25,8 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="list-select" class="form-label">List Style:</label>
-                    <select id="list-select" class="form-select">
+                    <label for="list-select">List Style:</label>
+                    <select id="list-select">
                         <option value="default">Default</option>
                         <option value="bullets">Bullets</option>
                         <option value="numbers">Numbers</option>
@@ -37,7 +36,6 @@
             </form>
         </div>
     </div>
-    <script src="bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
