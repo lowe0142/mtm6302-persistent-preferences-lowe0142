@@ -1,11 +1,10 @@
 body {
-    background-color: seashell;
+    background-color: lightyellow;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: black;
   }
   
   h1 {
-    color: black;
     margin: 4px;
     padding: 4px;
   }
@@ -24,8 +23,8 @@ body {
   
   /* Theme-specific styles */
   .default-theme {
-    background: snow;
-    color: gray;
+    background: lightyellow;
+    color: black;
   }
 
   .dark-theme {
